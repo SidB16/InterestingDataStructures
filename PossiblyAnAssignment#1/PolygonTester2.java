@@ -13,13 +13,6 @@ import java.awt.geom.Point2D.Double;
 import java.util.*;
 /**
  * PolygonTester should enable a thorough testing of the polygon hierarchy.
- * 
- * It should provide an easy to read input-output recording of the test cases.
- * 
- * The student should also submit these recorded test results in TestIO.txt file as part
- * of Assignment1.
- * 
- * @author Andy Mirzaian
  */
 public class PolygonTester2 {
 
