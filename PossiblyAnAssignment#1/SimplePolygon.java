@@ -6,7 +6,7 @@ package A1;
  * Section:  Z 
  * Student Name:  Siddharth Bhardwaj 
  * Student eecs account:  sid16
- * Student ID number:  213584396
+ * Student ID number: 
  **********************************************************/
 
 import java.awt.geom.Point2D;
@@ -18,13 +18,6 @@ import java.util.Scanner;
  * The class SimplePolygon implements the Polygon interface.
  * 
  * It is intended to be further extended by ConvexPolygon.
- * 
- * Comments are in-code. Sincerely Apologize.
- * Kindly refer to my comments for help or insight!
- * I stated my steps and showed my though process
- * for solving these problems!
- * 
- * @author Andy Mirzaian
  */
 public class SimplePolygon implements Polygon {
 
