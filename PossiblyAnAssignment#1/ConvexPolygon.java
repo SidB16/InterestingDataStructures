@@ -13,13 +13,6 @@ import java.awt.geom.Point2D;
 
 /**
  * The class ConvexPolygon extends SimplePolygon.
- * 
- * Comments are in-code. Sincerely Apologize.
- * Kindly refer to my comments for help or insight!
- * I stated my steps and showed my though process
- * for solving these problems!
- * 
- * @author Andy Mirzaian
  */
 public class ConvexPolygon extends SimplePolygon {
 	// TODO: add your code here
