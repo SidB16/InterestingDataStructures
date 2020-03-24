@@ -104,18 +104,9 @@ runtime/actul type determines which method defition to use.
 Abstract classes are classes you have cannot make any intances of. 
 If you have methods only subclasses can define and have feilds that are common to all subclasses then use abstract class. 
 
-Abstract class vs interface ==> dont think to technically! Dont tink to literally.
+Abstract class vs interface ==> dont think to technically! Dont tink to literally
 
-
-
-
-
-
-
-
-
-
-
+************************************************************************************************
 Statement is a declration 
 Class is a blueprint for an object. (class can be a type but not classses are types).
 An object is an instance of a class. It consists of fields and methods.
@@ -134,5 +125,5 @@ Anything that is not a privmitive type is a reference type.
 double vs Double
 Double is a reference type. It is an object that has a feild with value of
 primitive type double.
-
+************************************************************************************************
 
