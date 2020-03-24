@@ -26,5 +26,6 @@ public class NonSimplePolygonException extends Exception {
 
 	/** detailed message constructor */
 	public NonSimplePolygonException(String msg) {
-		super(msg); }
+		super(msg); 
+	}
 }
