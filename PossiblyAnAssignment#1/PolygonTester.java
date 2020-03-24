@@ -9,23 +9,12 @@ import java.text.DecimalFormat;
  * Section:  Z 
  * Student Name:  Siddharth Bhardwaj 
  * Student eecs account:  sid16
- * Student ID number:  213584396
+ * Student ID number:  
  **********************************************************/
 
 /**
  * PolygonTester should enable a thorough testing of the polygon hierarchy.
- * 
  * It should provide an easy to read input-output recording of the test cases.
- * 
- * The student should also submit these recorded test results in TestIO.txt file as part
- * of Assignment1.
- * 
- * Comments are in-code. Sincerely Apologize.
- * Kindly refer to my comments for help or insight!
- * I stated my steps and showed my though process
- * for solving these problems!
- * 
- * @author Andy Mirzaian
  */
 public class PolygonTester {
 	private static DecimalFormat df2 = new DecimalFormat(".##");
