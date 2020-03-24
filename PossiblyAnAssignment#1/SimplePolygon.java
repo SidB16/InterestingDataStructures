@@ -36,7 +36,7 @@ public class SimplePolygon implements Polygon {
 	 */
 	protected SimplePolygon(int size, Point2D.Double[] vertices) {
 		this.n = size;		
-		// TODO: place the rest of your code here
+		// TODO: place the rest of your code here.
 		this.vertices = vertices;
 		
 	}
