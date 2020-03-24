@@ -1,0 +1,65 @@
+TestIO.txt
+
+Kindly refer to my comments for more details!
+
+Polygons tested were :
+		Poly1: 5  8.9 21.8 29.1 8.8 39.2 20.3 14 11 28 25
+		Poly2: 7  28 2 31 5 28 10 14 14 5 10 8 4 18 1
+		Poly3: 9  6 10 20 3 23 3 23 8 27 3 30 3 20 15 16 5 20 14
+		Poly4: 13  5 6 13 2 12 6 20 2 16 12 17 11 19 5 13 11 19 15 8 12 14 7 5 11 9 6
+		Poly5: 13  5 6 13 2 12 6 20 2 18 12 17 11 19 5 13 11 19 15 8 12 14 7 5 11 9 6
+		Poly6: 22  14 7 15 8 17 7 17 5 15 6 14 4 12 6 11 9 15 11 7 12 8 11 7 9 10 11 8 6 10 5 11 3 16 3 18 4 19 8 16 9 14 9 13 8
+		Poly7: 4  6 1 9 5 5 8 2 4 
+		
+		Polygons that are simple from the tests above: (B/C precondition ==> only a simple poly can be convex!) 
+		 * Poly2: 7  28 2 31 5 28 10 14 14 5 10 8 4 18 1 ==> is Poly8
+		 * 
+		 * Poly5 = SimplePolygon.getNewPoly("13  5 6 13 2 12 6 20 2 18 12 17 11 19 5 13 11 19 15 8 12 14 7 5 11 9 6"); 
+		 *  ==> is Poly 11
+		 * 
+		 * Poly6 = SimplePolygon.getNewPoly("22  14 7 15 8 17 7 17 5 15 6 14 4 12 6 11 9 15 11 7 12 8 11 7 9 10 11 8 6 10 5 11 3 16 3 18 4 19 8 16 9 14 9 13 8");
+		 * ==> is Poly9
+		 * 
+		 * Poly7 = SimplePolygon.getNewPoly("4  6 1 9 5 5 8 2 4");
+		 * ==> is Poly10
+
+
+OUTPUT ========>
+
+Polygon1 is non-simple or invalid 
+ 
+Your input was ==>  Polygon of Size : 7 :   ( 28.0 , 2.0 )   ( 31.0 , 5.0 )   ( 28.0 , 10.0 )   ( 14.0 , 14.0 )   ( 5.0 , 10.0 )   ( 8.0 , 4.0 )   ( 18.0 , 1.0 ) 
+Polygon2 is : Simple ; Expected was  : Simple
+Area of Polygon2 is : 227.0 ; Expected Area is : INSERT ACTUAL AREA
+Perimeter of Polygon2 is : 61.68Expected Perimeter is : INSERT ACTUAL Perimeter
+ 
+Polygon3 is non-simple or invalid
+ 
+Polygon4 is non-simple or invalid
+ 
+Your input was ==>  Polygon of Size : 13 :   ( 5.0 , 6.0 )   ( 13.0 , 2.0 )   ( 12.0 , 6.0 )   ( 20.0 , 2.0 )   ( 18.0 , 12.0 )   ( 17.0 , 11.0 )   ( 19.0 , 5.0 )   ( 13.0 , 11.0 )   ( 19.0 , 15.0 )   ( 8.0 , 12.0 )   ( 14.0 , 7.0 )   ( 5.0 , 11.0 )   ( 9.0 , 6.0 ) 
+Polygon5 is : Simple ; Expected was  : Simple
+Area of Polygon5 is : 82.0 ; Expected Area is : 82.0
+Perimeter of Polygon5 is : 95.11 ; Expected Perimeter is : 95.11
+ 
+Your input was ==>  Polygon of Size : 22 :   ( 14.0 , 7.0 )   ( 15.0 , 8.0 )   ( 17.0 , 7.0 )   ( 17.0 , 5.0 )   ( 15.0 , 6.0 )   ( 14.0 , 4.0 )   ( 12.0 , 6.0 )   ( 11.0 , 9.0 )   ( 15.0 , 11.0 )   ( 7.0 , 12.0 )   ( 8.0 , 11.0 )   ( 7.0 , 9.0 )   ( 10.0 , 11.0 )   ( 8.0 , 6.0 )   ( 10.0 , 5.0 )   ( 11.0 , 3.0 )   ( 16.0 , 3.0 )   ( 18.0 , 4.0 )   ( 19.0 , 8.0 )   ( 16.0 , 9.0 )   ( 14.0 , 9.0 )   ( 13.0 , 8.0 ) 
+Polygon6 is : Simple ; Expected was  : Simple
+Area of Polygon6 is : 50.0 ; Expected Area is : 50.0
+Perimeter of Polygon6 is : 65.11 ; Expected Perimeter is : 65.11
+ 
+Your input was ==>  Polygon of Size : 4 :   ( 6.0 , 1.0 )   ( 9.0 , 5.0 )   ( 5.0 , 8.0 )   ( 2.0 , 4.0 ) 
+Polygon7 is : Simple ; Expected was  : Simple
+Area of Polygon7 is : 25.0 ; Expected Area is : 25
+Perimeter of Polygon7 is : 20.0 ; Expected Perimeter is : 20
+ 
+Your input was ==>  Polygon of Size : 7 :   ( 28.0 , 2.0 )   ( 31.0 , 5.0 )   ( 28.0 , 10.0 )   ( 14.0 , 14.0 )   ( 5.0 , 10.0 )   ( 8.0 , 4.0 )   ( 18.0 , 1.0 ) 
+Polygon8 is : Convex ; Expected was  : Convex
+ 
+Polygon9 is non-convex or invalid 
+ 
+Your input was ==>  Polygon of Size : 4 :   ( 6.0 , 1.0 )   ( 9.0 , 5.0 )   ( 5.0 , 8.0 )   ( 2.0 , 4.0 ) 
+Polygon10 is : Convex ; Expected was  : Convex
+ 
+Polygon11 is non-convex or invalid 
+ 
+Result from Delta Test ==> pass!

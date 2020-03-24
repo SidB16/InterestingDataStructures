@@ -1,0 +1,39 @@
+
+Useful eclipse hotkeys:
+
+0) ctrl + 3 for Quick Access ==> very useful
+
+1) ctrl + space for auto generated templates
+
+2) ctrl + 7 for auto generate // comments
+
+3) ctrl + - for zoom out in java editor
+
+4) ctrl + + for zoom in in java editor
+
+5) ctrl + 1 for auto action suggestion ==> use this to fix spellings!! 
+
+5) ctrl + o for quick access ==> very useful
+
+
+Refactor
+
+Refactor option (best) ==> shift + alt +t
+Rename ==> shift + alt + r
+
+
+Debug actions
+Debug Last Launched	F11
+Display	Ctrl+Shift+D
+Inspect	Ctrl+Shift+I
+Resume	F8
+Run Last Launched	Ctrl+F11
+Run Snippet	Ctrl+U
+Run to Line	Ctrl+R
+Run to Return	F7
+Step Into	F5
+Step into Selection	Ctrl+F5
+Step Over	F6
+Toggle Breakpoint	Ctrl+Shift+B
+
+***Remember to use local history, found IN-CONTEXT of EACH METHOD, to revert method to previous state or find deleted elements***

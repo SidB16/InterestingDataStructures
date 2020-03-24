@@ -1,0 +1,138 @@
+A class is a blueprint of an object. A class can have a type but not all types are classes.
+An object is an instance of a class.
+A object can have a feilds and methods.
+Feilds are what the object knows.
+Methods are what the object can do.
+
+A constructor is used to initialized the state of an object.
+It has the same name as the class but does not return anything.
+
+Java has two types. Primitive and Reference.
+
+Primitive types are ==> b c s i l f d b.
+byte, char, short, int, long, float, double, boolean.
+(note: float and double are both floating point numbers.
+While float is single percision, double is double percision floating point.
+While float is 32-bit, double is 64-bit, and decimal is 128-bit)
+
+Any type that is not a privmitive type is a reference type.
+This includes String (which is a array of chars), Double, Intger, etc.
+Double, Integer, Character and  Long are wrapper classes.
+I.e. these object have feilds value equal to their primitive type equvilent.
+
+The type of arithmetic being performed depends on the OPERATOR and OPERANDS!
+For example, there can be double divison, int addition etc.
+
+Method header ==> modifier + name + param list
+Method signatre ==> name + param list
+
+Static methods are methods that belong to the class.
+
+Overloading methods = methods having the same name
+The concept of copy constructor ( same name but diff param) is an example.
+
+Pre conditions are conditions that the client must ensure are immediatley true before the method is executed. 
+If not true then the contract does not hold, and thus output will be unpredictable.
+
+Post conditions are conditions that method must ensure hold true after the method is done executing. 
+If not true, then implementation of method is incorrect.
+
+Throwing exceptions = throwing new objects.
+
+Requirments for Equals:
+An object is equal if,
+1) it is equal to itself.
+2) it is never equal to null.
+3) if two objects are not of the same time.
+4) if have the same state (same values for feilds).
+
+To implement a comparable interface. You need to impplement a compare to method.
+
+An immutable object is an object whose state cannot be changed once its created.
+For example, String, Double, Integer and other wrapper classes. 
+
+Static feild ==> feild that belongs the class.
+All instances of the class will share the same feild. 
+
+JAVA IS PASS BY VALUE. 
+Each method will create its own copy of passed param.
+Methods cannot change the primitive types.
+But refrence types pass the refernces to the methods, thus they can be changed.
+
+Aggregation and Composition
+Both terms define relation between objects.
+Both terms define "has-a" relationship.
+
+Aggregation is sharing of objects. It shares the references of the objects
+Composition implies ownership. Which means exclusive acess. Shallow are deep copies are made to reduce sherability. 
+
+Useful summary:
+An alias is a refernce to an exsisting object.
+
+A shallow copy of an object is a new object whose feilds are aliases to feilds of the copied object.
+A shallow copy of a collection is a new collection whose elements are alias to the elements of copied collection.
+
+A deep copy of an object is a new object whose feilds are new copies to feidls of the copied object.
+A deep copy of a collection is a new collection whose elements are new copies of the copied collection.
+
+Inheritence models "is-a" relationship
+To java it means a subclass is substitutable for superclass. 
+Subclass can do everthing a super class can do. 
+
+A sublass is a new class that has the same API as its super class.
+A subclass inherits all non-private feilds and methods of the super class, including feilds and methods but not including constructors.
+A sublass has direct acess to the public and protected feilds and methods of its superclass, without needing to re-declare or re-implement them
+A subclass can add new feilds and methods.
+A subclass can re-define (override) methods.
+
+The FIRST LINE of constructor of a subclass must make a call to the constructor the superclass. 
+if not explicity made a implict call, which cannot be seen is made. 
+
+A subclass is only allowed to have one superclass.
+
+A method that throws exception X, can throw any exception that is a subclass of X.
+
+Polymorphism & dynamic dispathcing
+Inheritance allwos sublcasses to re-define methods, and that is what polymorphism is. It when the implementer changes the behaviour of method that was defined in parent class. 
+
+Polymorphism requires late binding which means deciding what method definition to use is determined at runtime. 
+The determining of which method to use at runtime is called dynamic dispatch. 
+It involces ==> dynamic type = runtime/actual type;
+dynamic type determines which method to use.
+runtime/actul type determines which method defition to use.
+
+Abstract classes are classes you have cannot make any intances of. 
+If you have methods only subclasses can define and have feilds that are common to all subclasses then use abstract class. 
+
+Abstract class vs interface ==> dont think to technically! Dont tink to literally.
+
+
+
+
+
+
+
+
+
+
+
+Statement is a declration 
+Class is a blueprint for an object. (class can be a type but not classses are types).
+An object is an instance of a class. It consists of fields and methods.
+A feild is what the knows/has.
+A Method is what an object can do.
+
+A constructor is used to initialize the state on an object. 
+Must have the same name as the class, and does not return anything.
+
+There are primitive types and reference types.
+A primitive type is ==> B C S I L F D B
+byte, char, short, int, long, float, double, boolean 
+
+Anything that is not a privmitive type is a reference type. 
+
+double vs Double
+Double is a reference type. It is an object that has a feild with value of
+primitive type double.
+
+
