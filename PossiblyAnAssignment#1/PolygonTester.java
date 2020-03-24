@@ -318,6 +318,6 @@ public class PolygonTester {
 				String rtn = val1.equals(expt) ? "pass!" : "fail!";
 				System.out.println("Result from Delta Test ==> " + rtn);
 		
-	}//Main bracket
+	}//main bracket
 	
 }
