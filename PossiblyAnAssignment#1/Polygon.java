@@ -6,7 +6,7 @@ package A1;
  * Section:  Z 
  * Student Name:  Siddharth Bhardwaj 
  * Student eecs account:  sid16
- * Student ID number:  213584396
+ * Student ID number:  
  **********************************************************/
 
 import java.awt.geom.Point2D;
@@ -16,8 +16,6 @@ import java.awt.geom.Point2D;
  * by the class SimplePolygon, and further extended by the class ConvexPolygon.
  * This interface provides methods to compute polygon perimeter and polygon
  * area, as well as getSize and getVertex.
- * 
- * @author Andy Mirzaian
  */
 public interface Polygon {
 
