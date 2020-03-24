@@ -1,4 +1,4 @@
-⋅⋅1.# InterestingDataStructures
+# InterestingDataStructures
 A set of multiple datastructures, primitive and/or APIs I found  to interesting. Implemented in Java :pouting_cat:
 
 Inspired by the [GTG] Goodrich, Tamassia, Goldwasser, “Data Structures and Algorithms in Java”, 6th edition, book I built these datastructures by hand (programatically obvi).
